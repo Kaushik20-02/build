@@ -285,7 +285,14 @@ textarea{
         grid-template-columns: repeat(3, 1fr);
     }
 }
-
+@media (max-width: 480px) {
+    .nav{
+        width: 80%;
+    }
+    .build{
+        margin-right: -4.8rem;
+    }
+}
 .print-btn-sc{
     margin: 2rem 5rem;
 }
